@@ -14,25 +14,24 @@ missing data. You kind of get the idea that, as a book collector, she might be t
 this opportunity to go through her collection again. When you have loaded the data, she would
 like audits, or reports, to allow her to locate the books that are missing data.
 
-Part I:
+### Part I:
 Take your design and update it with your recent understanding of Normal Forms to
 create a design that is at least in BCNF and create the database.
 
-Part II:
+### Part II:
 Document the design decision or changes from your original design.
 
-Part III:
+### Part III:
 Take the Excel sheet, inventory.xlsx, that she has been using as her inventory and load
 her existing book inventory into the database.
 
-
-Part IV:
+### Part IV:
 Document the problems you ran into and how you addressed them in a short description,
 or report, that you will email to the book collector. The data is very messy and
 you will run into problems that you need to correct. How you choose to correct them is
 up to you, but be sure to document how you did it.
 
-Part V:
+### Part V:
 Create 4 reports:
 - A report that lists all the Authors and the number of books they have.
 - A report that lists all the publishing companies and the number of books they have.
