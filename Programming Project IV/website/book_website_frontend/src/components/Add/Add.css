@@ -1,0 +1,178 @@
+/* Colors */
+/*
+dark blue: #476A6F
+light blue: #258EA6
+dark green: #519E8A
+medium green: #7EB09B
+light green: #A3C4BC
+*/
+
+.wrapper {
+    height: 1007px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*background-color: #519e8a;*/
+    background-image:url("../../imgs/book_back.jpg");
+    /* filter: grayscale(100%); */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .form-wrapper {
+    margin-top: 40px;
+    opacity: 0.9;
+    width: 400px;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 50px #555;
+    background-color: #ffffff;
+  }
+  
+  form {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  h1 {
+    text-align: center;
+    width: 100%;
+    color: #111;
+    font-weight: lighter;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  
+  label {
+    font-size: 0.8em;
+    margin-bottom: 0.25em;
+    color: #222;
+    font-weight: lighter;
+  }
+  
+  input {
+    padding: 10px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #cfcfcf;
+  }
+  
+  input::placeholder {
+    font-size: 1.2em;
+    font-weight: lighter;
+    color: #999;
+  }
+  
+  input.error {
+    border: 1px solid red;
+  }
+  
+  .errorMessage {
+    color: red;
+    font-size: 0.75em;
+    display: relative;
+  }
+   
+  .title,
+  .author,
+  .edition,
+  .publish_year,
+  .pages,
+  .isbn,
+  .gutenberg_path,
+  .jacket_condition,
+  .binding_type,
+  .image_path,
+  .notes
+  {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+
+  .publish_year,
+  .jacket_condition {
+    margin-right: 1%;
+  }
+  
+  .pages,
+  .binding_type
+  {
+    margin-left: 1%;
+  }
+  
+  .pages,
+  .publish_year,
+  .jacket_condition,
+  .binding_type
+  {
+    width: 49%;
+  }
+  
+  .title,
+  .author,
+  .edition,
+  .isbn,
+  .gutenberg_path,
+  .image_path,
+  .notes {
+    width: 100%;
+  }
+  
+  .addBook {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .addBook button {
+    background: #258ea6;
+    opacity: 0.5;
+    color: white;
+    border: 2px solid #fff;
+    width: 100%;
+    height: 40px;
+    font-weight: lighter;
+    margin-top: -5px;
+    padding: 8px 0px;
+    font-size: 1em;
+    letter-spacing: 1px;
+    margin-bottom: 0.25em;
+    border-radius: 5px;
+  }
+  
+  .addBook button:hover {
+    color: black;
+    background-color: aquamarine;
+    border: 2px solid aquamarine;
+  }
+  
+  .addBook small {
+    color: #999;
+    font-weight: lighter;
+    background-color: aqua !important;
+  }
+
+  textarea {
+    height: 80px;
+    border-radius: 5px;
+    border-color: lightgray;
+    border-width: 1px;
+  }
+  button {
+    background-color: aqua !;
+  }
+  select {
+    background-color: white;
+    border-radius: 5px;
+    border-color: lightgray;
+    border-width: 1px;
+
+  }
