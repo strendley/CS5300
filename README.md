@@ -16,4 +16,4 @@ and locking, timestamping, serializability, recovery techniques, and query plann
 1. Project I: Conceptual design, relational ER Diagrams, & schemas
 2. Project II: BCNF, design changes, creation of the database & data cleaning
 3. Project III: Views, indexes, query processing, & query optimization
-
+4. Project IV: A website created using React to query our database.
